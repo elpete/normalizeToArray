@@ -33,6 +33,12 @@
     "ignore":[
         "**/.*",
         "test",
-        "tests"
+        "tests",
+        ".gitignore",
+        "package.json",
+        "gulpfile.js",
+        ".travis.yml",
+        "server.json",
+        "yarn.lock"
     ]
 }
