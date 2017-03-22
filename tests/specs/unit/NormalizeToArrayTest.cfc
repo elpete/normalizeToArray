@@ -1,6 +1,6 @@
 component extends="testbox.system.BaseSpec" {
     function beforeAll() {
-        variables.normalizeToArray = new root.ModuleConfig().normalizeToArray;
+        include "/root/functions/normalizeToArray.cfm";
     }
 
     function run() {
