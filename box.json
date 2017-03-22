@@ -1,0 +1,38 @@
+{
+    "name":"normalizeToArray",
+    "version":"0.0.0",
+    "author":"Eric Peterson",
+    "location":"elpete/normalizeToArray#v0.0.0",
+    "homepage":"https://github.com/elpete/normalizeToArray",
+    "documentation":"https://github.com/elpete/normalizeToArray",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/elpete/normalizeToArray"
+    },
+    "bugs":"https://github.com/elpete/normalizeToArray/issues",
+    "slug":"normalizeToArray",
+    "shortDescription":"Normalize variable values to lists and arrays",
+    "description":"Normalize variable values to lists and arrays",
+    "type":"modules",
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        "coldbox":"^4.3.0+188",
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"tests/resources/app/coldbox"
+    },
+    "scripts":{
+        "postVersion":"package set location='elpete/normalizeToArray#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}

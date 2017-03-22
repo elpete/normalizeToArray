@@ -1,0 +1,21 @@
+{
+  "name": "normalizer",
+  "version": "1.0.0",
+  "description": "## Normalize variable values to lists and arrays",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "coldbox-elixir": "^2.1.1",
+    "cross-env": "^3.2.4",
+    "gulp": "^3.9.1",
+    "testbox-runner": "seancoyne/testbox-runner"
+  }
+}
