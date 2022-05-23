@@ -9,13 +9,19 @@
         "type":"git",
         "URL":"https://github.com/elpete/normalizeToArray"
     },
+    "license":[
+        {
+            "type":"MIT",
+            "URL":"https://github.com/elpete/normalizeToArray/LICENSE"
+        }
+    ],
     "bugs":"https://github.com/elpete/normalizeToArray/issues",
     "slug":"normalizeToArray",
     "shortDescription":"Normalize any value to an array",
     "description":"Normalize any value to an array",
     "type":"modules",
     "dependencies":{
-        
+
     },
     "devDependencies":{
         "coldbox":"^4.3.0+188",
